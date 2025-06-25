@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --font-destaque: "Josefin Sans", sans-serif;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #494949;
+}
+.container{
+    display: flex;
+    width: 70%;
+    height: 70%;
+    background-color: #222222;
+    padding: 10px;
+    border-radius: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c0c0c;
+    border-radius: 20px;
+    width: 40%;
+    height: 100%;
+    background-image: url(../../../images/background.jpeg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+    .logo-img{
+        width: 300px;
+    }
+.register{
+    background-color: #222222;
+    width: 60%;
+    height: 100%;
+    padding: 50px;
+}
+.text-tittle{
+    font-family: var(--font-destaque);
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
