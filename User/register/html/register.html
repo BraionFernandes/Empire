@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../../../images/empire-logotipo.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/png">
     <link rel="stylesheet" href="../css/style.css">
     <title>Empire Corp - Register</title>
 </head>
@@ -11,9 +12,10 @@
     <div class="register">
         <div class="container">
             <div class="info">
+                <div class="info-bg"></div>
                 <img class="info-logo" src="../images/empire-logo.png" alt="logotipo escrita da marca Empire Corporation.">
                 <span class="info-tittle">Já tem uma conta?</span>
-                <span class="info-msg">Faça login e continue de onde parou</span>
+                <span class="info-msg">Faça login e continue de onde parou.</span>
                 <button class="info-button">Login</button>
             </div>
             <div class="create">
@@ -21,22 +23,18 @@
                 <span class="create-msg">Ajudaremos você a alcançar seus maiores sonhos!</span>
                 <form class="create-form">
                     <div class="create-form-div">
-                        <label class="create-form-div-label" for=""></label>
-                        <input class="create-form-div-input" type="text" name="first-name" id="first-name">
+                        <label class="create-form-div-label" for="first-name"><i class="material-symbols-outlined">person</i></label>
+                        <input class="create-form-div-input" type="text" name="first-name" id="first-name" placeholder="Nome">
                     </div>
                     <div class="create-form-div">
-                        <label class="create-form-div-label" for=""></label>
-                        <input class="create-form-div-input" type="text" name="last-name" id="last-name">
+                        <label class="create-form-div-label" for="email"><i class="material-symbols-outlined">mail</i></label>
+                        <input class="create-form-div-input" type="email" name="email" id="email" placeholder="Email">
                     </div>
                     <div class="create-form-div">
-                        <label class="create-form-div-label" for=""></label>
-                        <input class="create-form-div-input" type="email" name="email" id="email">
+                        <label class="create-form-div-label" for="password"><i class="material-symbols-outlined">lock</i></label>
+                        <input class="create-form-div-input" type="password" name="password" id="password" placeholder="Senha">
                     </div>
-                    <div class="create-form-div">
-                        <label class="create-form-div-label" for=""></label>
-                        <input class="create-form-div-input" type="password" name="password" id="password">
-                    </div>
-                    <div class="create-form-div">
+                    <div class="create-form-button">
                         <button class="create-form-div-button">Criar conta</button>
                     </div>
                 </form>
