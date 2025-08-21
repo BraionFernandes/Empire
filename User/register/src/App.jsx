@@ -29,7 +29,7 @@ function App() {
                 <input className="create-form-div-input" type="email"  name='email' id='email' placeholder="Email"/>
               </div>
               <div className="create-form-div">
-                <label className="create-form-div-label" htmlFor="password" ><i className="material-symbols-outlined">lock</i></label>
+                <label className="create-form-div-label" htmlFor="password"><i className="material-symbols-outlined">lock</i></label>
                 <input className="create-form-div-input" type="password"  name='password' id='password' placeholder="Senha"/>
               </div>
               <div className="create-form-button">
