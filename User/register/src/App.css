@@ -27,7 +27,7 @@
         border-radius: 15px;
         box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
     }
-        .info, .info-login{
+        .info{
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -37,17 +37,17 @@
             background-color: rgb(0, 0, 40);
             border-radius: 15px 100px 60px 15px;
         }
-            .info-logo, .info-login-logo{
+            .info-logo{
                 width: 200px;
                 margin: 60px 0px;
             }
-            .info > span, .info-login > span{
+            .info > span{
                 font-family: var(--font-destaque);
                 font-size: 1.3em;
                 font-weight: 600;
                 color: #fff;
             }
-            .info-button, .info-login-button{
+            .info-button{
                 font-family: var(--font-destaque);
                 font-size: 1.1em;
                 font-weight: 700;
@@ -60,11 +60,11 @@
                 color: #fff;
                 transition: 300ms;
             }
-                .info-button:hover, .info-login-button:hover{
+                .info-button:hover{
                     color: #e7e7e7;
                     background-color: #d19a24;
                 }
-        .create, .login{
+        .create{
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -72,7 +72,7 @@
             width: 50%;
             padding: 10px;
         }
-            .create-tittle, .login-tittle{
+            .create-tittle{
                 display: block;
                 font-family: var(--font-destaque);
                 font-size: 1.8em;
@@ -80,7 +80,7 @@
                 text-align: center;
                 padding: 20px;
             }
-            .create-msg, .login-msg{
+            .create-msg{
                 display: block;
                 font-family: var(--font-destaque);
                 font-size: 1.3em;
@@ -88,7 +88,7 @@
                 text-align: center;
                 padding-bottom: 15px;
             }
-            .create-form, .login-form{
+            .create-form{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -96,23 +96,23 @@
                 padding: 10px;
                 margin-top: 20px;
             }
-                .create-form-div, .login-form-div{
+                .create-form-div{
                     display: flex;
                     flex-direction: row;
                     background-color: #e6e6e6;
                     padding: 10px;
                     border-radius: 10px;
                 }
-                    .create-form-div-label, .login-form-div-label{
+                    .create-form-div-label{
                         color: #777777;
                         display: flex;
                         align-items: center;
                     }
-                        .create-form-div-label > i, .login-form-div-label > i{
+                        .create-form-div-label > i{
                             font-size: 1.5em;
                             padding: 0px 5px;
                         }
-                    .create-form-div-input, .login-form-div-input{
+                    .create-form-div-input{
                         width: 250px;
                         border: none;
                         outline: none;
@@ -121,10 +121,10 @@
                         font-size: 1em;
                         padding: 3px;
                     }
-                .create-form-button, .login-form-button{
+                .create-form-button{
                     padding: 5px;
                 }
-                    .create-form-div-button, .login-form-div-button{
+                    .create-form-div-button{
                         background-color: rgb(0, 0, 45);
                         font-family: var(--font-destaque);
                         font-size: 1.1em;
@@ -137,7 +137,7 @@
                         color: #fff;
                         transition: 300ms;
                     }
-                    .create-form-div-button:hover, .login-form-div-button:hover{
+                    .create-form-div-button:hover{
                         background-color: rgb(0, 0, 65);
                         color: #e7e7e7;
                     }
